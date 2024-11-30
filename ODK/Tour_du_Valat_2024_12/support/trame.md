@@ -60,6 +60,8 @@ Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source proj
 #### XLSForm
 * [le modèle de document xlsform](https://github.com/getodk/xlsform-template/raw/main/ODK%20XLSForm%20Template.xlsx)
 * [la documentation d'ODK](https://docs.getodk.org/xlsform/)
+* les tutoriels traduits en français :-)
+    * 
 * [le site du standart xlsform](https://xlsform.org/en/#basic-format)
 * [la "cheatsheet" de cartong](https://docs.google.com/spreadsheets/d/1AB2BNb2dsAOMJuRDjC-ii2-AeljDZ8TeGqAK6tLmZvk/edit?usp=sharing)
 
