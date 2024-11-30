@@ -10,10 +10,7 @@ _ODK has become a large and vibrant open source project, depended on by millions
 Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source project and sustains its operations through ODK-related business activites (or otherwise)._
 
 #### Core team
-![l'équipe d'ODK Inc.](/home/mathieu/notes_md/images_odk/team.png)
-
-#### Technical Advisory Board
-The technical Advisory Board (TAB) represents the broader ODK community. It reviews and gives feedback on major roadmap decisions, new designs, specfications, features, and protocol changes.
+![l'équipe d'ODK Inc.](./illustrations/team.png)
 
 #### Forum
 [https://forum.getodk.org](https://forum.getodk.org)
@@ -56,16 +53,12 @@ The technical Advisory Board (TAB) represents the broader ODK community. It revi
 * en combinaison avec PostgreSQL :
 * [showcase ici](https://forum.getodk.org/t/updating-external-media-files-for-select-questions-from-another-form-using-centrals-api/37295)
 
-#### Authentification CAS / LDAP ?
-* pas pour le moment. ODK-X semble proposer cela.
-* Central intégrera à long terme des fonctionnalités d'import/export d'utilisateurs et réglages :
-"Bulk upload-download user email address and permissions"   
-Au CEN N-A, un utilitaire python de génération de QRCode pour les nouveaux utilisateurs a été développé.
-[Ce que peut contenir le QRCode](https://forum.getodk.org/t/qrealtime-a-qgis-plug-in-for-odk/13809/46?u=mathieubossaert)
+#### Les entités
 
 ### Conception de formulaires
 
 #### XLSForm
+* [le modèle de document xlsform](https://github.com/getodk/xlsform-template/raw/main/ODK%20XLSForm%20Template.xlsx)
 * [la documentation d'ODK](https://docs.getodk.org/xlsform/)
 * [le site du standart xlsform](https://xlsform.org/en/#basic-format)
 * [la "cheatsheet" de cartong](https://docs.google.com/spreadsheets/d/1AB2BNb2dsAOMJuRDjC-ii2-AeljDZ8TeGqAK6tLmZvk/edit?usp=sharing)
@@ -169,6 +162,5 @@ SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
   * [repvisforODK](https://github.com/SwissTPH/repvisforODK) for data visualization by Lucas Silbernagel
 
 #### QGIS et ODK
-  * https://forum.getodk.org/t/qrealtime-a-qgis-plug-in-for-odk/13809/46?u=mathieubossaert
 
 #### Questions diverses :
