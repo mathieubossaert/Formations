@@ -1,7 +1,7 @@
-## CATI GEDEOP / Formation ODK
-Montpellier les 20 et 21 avril 2022
+## Tour du Valat / Formation ODK
+Montpellier le 2, 3 et 4 décembre 2024
 
-Par Mathieu Bossaert / Cen Occitanie
+Par Mathieu Bossaert
 
 ### Gouvernance du projet
 
@@ -60,12 +60,13 @@ Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source proj
 #### XLSForm
 * [le modèle de document xlsform](https://github.com/getodk/xlsform-template/raw/main/ODK%20XLSForm%20Template.xlsx)
 * [la documentation d'ODK](https://docs.getodk.org/xlsform/)
-* les tutoriels traduits en français :-)
-    * 
+* les tutoriels
+    * https://docs.getodk.org/tutorial-first-form/
+    * https://docs.getodk.org/tutorial-community-reporting/
 * [le site du standart xlsform](https://xlsform.org/en/#basic-format)
 * [la "cheatsheet" de cartong](https://docs.google.com/spreadsheets/d/1AB2BNb2dsAOMJuRDjC-ii2-AeljDZ8TeGqAK6tLmZvk/edit?usp=sharing)
 
-##### les onglets
+##### les feuilles
 * survey*
 * choices*
 * settings
@@ -95,7 +96,12 @@ Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source proj
     * label
     * _colonne pour filtre_
 * settings
-
+    * form_title
+    * form_id
+    * version
+    * instance_name
+    * default_language
+    * style   
 
 ##### les sélections simples et multiples
 * les sélections en cascade
