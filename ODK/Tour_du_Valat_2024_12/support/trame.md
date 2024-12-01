@@ -149,17 +149,20 @@ Proposer un formulaire avec
     * date et durée de l’observation
 
 ![exo 1](./illustrations/exercices/exo_1.png)
+
 [solution proposée](./illustrations/exercices/exercice_1.xlsx)
 #### Exercice 1-bis
 idem mais on peut renseigner plusieurs observateurs
 
 ![exo 1bis](./illustrations/exercices/exo_1-bis.png)
+
 [solution proposée](./illustrations/exercices/exercice_1bis.xlsx)
 #### Exercice 2
 sur la base de l’exercice 1-bis
   * un écran supplémentaire après le n°2 propose en plus un “code de relevé” au format texte
 
 ![exo 2](./illustrations/exercices/exo_2.png)
+
 [solution proposée](./illustrations/exercices/exercice_2.xlsx)
 #### Exercice 2bis
   * on ajoute au formulaire de l’exercice 2 la choix d’une structure avant celui de l’observateur.
@@ -167,9 +170,11 @@ sur la base de l’exercice 1-bis
   * on peut ajouter plusieurs structures/observateurs
 
 ![exo 2bis](./illustrations/exercices/exo_2-bis.png)
+
 [solution proposée](./illustrations/exercices/exercice_2bis.xlsx)
 #### Exercice 2ter
 Idem mais les listes (étude, protocole, observateurs) sont gérées dans des fichiers csv annexes)
+
 [solution proposée](./illustrations/exercices/exercice_2ter.xlsx)
 #### Exercice 3
 On introduit la possibilité des saisir la localité de l’observation
@@ -179,6 +184,7 @@ On introduit la possibilité des saisir la localité de l’observation
 “l’astuce” consistera à conditionner l’une ou l’autre des options à l’option choisie
 
 ![exo 3](./illustrations/exercices/exo_3.png)
+
 [solution proposée](./illustrations/exercices/exercice_3.xlsx)
 #### Exercice 4
   * à chaque localisation on peut ajouter plusieurs espèces observées
@@ -186,6 +192,7 @@ On introduit la possibilité des saisir la localité de l’observation
   * pour pouvoir plus tard adapter le formulaire selon qu’on saisira de la faune ou de la flore, on proposera de choisir le règne juste avant l’espèce (Animalia ou Plantae)
  
 ![exo 4](./illustrations/exercices/exo_4.png)
+
 [solution proposée](./illustrations/exercices/exercice_4.xlsx)
 ### Récupération des données
 
@@ -239,4 +246,7 @@ SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
 
 #### QGIS et ODK
 
-#### Questions diverses :
+### Questions diverses :
+### Publier et partager ses formulaires
+* sur le forum (catégorie Showcase)
+* sur protocols.io : https://dx.doi.org/10.17504/protocols.io.kqdg3xr2qg25/v1
