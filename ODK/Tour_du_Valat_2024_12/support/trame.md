@@ -1,21 +1,16 @@
-## Formation ODK - Tour du Valat
+# Formation ODK - Tour du Valat
 
 ![la Tour du Valat](./illustrations/TDV_ODK.jpeg)
 
 Mathieu Bossaert, Le Sambuc, les 2, 3 et 4 décembre 2024
-
-### Gouvernance du projet
-
-#### GetODK Inc.
-_ODK has become a large and vibrant open source project, depended on by millions of users for critical data gathering needs. As such, the project requires substantial work to maintain. This work is best performed performed in a steady, reliable fashion by a concrete, well-resourced entity. In recognition of these facts, Get ODK Inc., a corporation in the U.S. State of California, was formed to serve as the primary, day-to-day manager and steward of the project.
-Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source project and sustains its operations through ODK-related business activites (or otherwise)._
-
-#### Core team
+## ODK
+### L'équipe
 ![l'équipe d'ODK Inc.](./illustrations/team.png)
 
-#### Forum
+### La communauté
 [https://forum.getodk.org](https://forum.getodk.org)
-
+## Les outils
+ODK Central est le serveur. Il organise les formulaires, gère les utilisateurs et leurs droits d'accès, diffuse les formulaires vierges aux terminaux qui utilisent ODK Collect, et il reçoit et centralise les données collectées.
 ### Présentation des fonctionnalités d'ODK Central
 #### Projets / utilisateurs web / utilisateurs mobiles
 * Utilisateurs web / rôles de projet
@@ -40,6 +35,7 @@ Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source proj
 * affectation du nouveau formulaire aux utilisateurs mobiles
 
 #### Accès public via Enketo
+-> web forms
 
 #### Gestion des soumissions
 
@@ -55,7 +51,7 @@ Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source proj
 * [showcase ici](https://forum.getodk.org/t/updating-external-media-files-for-select-questions-from-another-form-using-centrals-api/37295)
 
 #### Les entités
-
+https://docs.getodk.org/language/fr/tutoriel-signalement-problemes/
 #### La feuille de route
 https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb10bdaa94d2bef11
 
@@ -68,7 +64,6 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
     * https://docs.getodk.org/tutorial-first-form/
     * https://docs.getodk.org/tutorial-community-reporting/
 * [le site du standart xlsform](https://xlsform.org/en/#basic-format)
-* [la "cheatsheet" de cartong](https://docs.google.com/spreadsheets/d/1AB2BNb2dsAOMJuRDjC-ii2-AeljDZ8TeGqAK6tLmZvk/edit?usp=sharing)
 
 ##### les feuilles
 * survey*
@@ -111,6 +106,11 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
 * les sélections en cascade
       -> choice_filter dépendant d'un réponse précédente
 * afficher des attributs de l’objet sélectionné
+      -> List lookups
+      > instance('etangs')/root/item[name = ${etang}]/cote_gestion
+* les sélections sur carte
+     -> https://docs.getodk.org/form-question-types/#select-one-from-map-widget
+     -> https://docs.getodk.org/form-datasets/#building-selects-from-geojson-files
 ##### les boucles
 * itérer un certain nombre de fois (repeat_count)
     * valeur fixe/statique
@@ -122,6 +122,56 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
 * Nommage des itérations (repeat)
    * pourquoi ?
 * Affichages conditionnels (relevant)
+
+### Exercices
+#### Exercice 1
+Proposer un formulaire avec
+  * écran 1
+    * choix de l’étude dans une liste
+    * choix et du protocole dans une liste
+  * écran 2
+    * choix de l’observateur dans une liste
+  * écran 3
+    * date et durée de l’observation
+
+![exo 1](./illustrations/exercices/exo_1.png)
+
+#### Exercice 1-bis
+idem mais on peut renseigner plusieurs observateurs
+
+![exo 1bis](./illustrations/exercices/exo_1-bis.png)
+
+#### Exercice 2
+sur la base de l’exercice 1-bis
+  * un écran supplémentaire après le n°2 propose en plus un “code de relevé” au format texte
+
+![exo 2](./illustrations/exercices/exo_2.png)
+
+#### Exercice 2bis
+  * on ajoute au formulaire de l’exercice 2 la choix d’une structure avant celui de l’observateur.
+  * la structure choisie conditionne les choix proposés dans la liste des observateurs (“cascading select”). Paul et jacques travaillent au CEN, Pierre et Martin à la LPO, si je choisis le cen comme structure, seuls Paul et Jacques me sont proposés comme observateurs
+  * on peut ajouter plusieurs structures/observateurs
+
+![exo 2bis](./illustrations/exercices/exo_2-bis.png)
+
+#### Exercice 2ter
+Idem mais les listes (étude, protocole, observateurs) sont gérées dans des fichiers csv annexes)
+
+#### Exercice 3
+On introduit la possibilité des saisir la localité de l’observation
+  * on proposera à l’utilisateur de choisir les modalités de la localisation :
+    * créer automatiquement un point avec le GPS du téléphone -> trouver l’option qui déclenche la création du point dés que le GPS du téléphone obtient une précision de “10m”
+    * pointer l’observation sur une carte
+“l’astuce” consistera à conditionner l’une ou l’autre des options à l’option choisie
+
+![exo 3](./illustrations/exercices/exo_3.png)
+
+#### Exercice 4
+  * à chaque localisation on peut ajouter plusieurs espèces observées
+  * la liste des espèces possibles est stockée dans un csv (voir ce fichier)
+  * pour pouvoir plus tard adapter le formulaire selon qu’on saisira de la faune ou de la flore, on proposera de choisir le règne juste avant l’espèce (Animalia ou Plantae)
+ 
+![exo 4](./illustrations/exercices/exo_4.png)
 
 ### Récupération des données
 
