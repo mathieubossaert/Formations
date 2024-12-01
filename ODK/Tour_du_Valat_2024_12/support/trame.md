@@ -5,16 +5,16 @@
 Mathieu Bossaert, Le Sambuc, les 2, 3 et 4 décembre 2024
 ### Programme prévisionnel
 
-|demi-journée|Planning proposé|Planning proposé|
-|---|---|---|
-|1|présentation d’ODK|Central / Collect / WebForms (enketo)|
-||La communauté|Forum & Github|
-||XlsForm|Logique et types de question|
-|2|TP|Travaux pratiques logiques de formulaire et types de question|
-|3|Développement|Formulaire IWC|
-|4|Développement|Formulaire IWC|
-|5|Optimisation|Listes de choix, logique, last-saved...|
-|6|Récupération des données en base|Dans PostgreSQL avec Central2PG + présentation des alternatives|
+| demi-journée | Planning proposé                 | Planning proposé                                                |
+|--------------|----------------------------------|-----------------------------------------------------------------|
+| 1            | présentation d’ODK               | Central / Collect / WebForms (enketo)                           |
+|              | La communauté                    | Forum & Github                                                  |
+|              | XlsForm                          | Logique et types de question                                    |
+| 2            | TP                               | Travaux pratiques logiques de formulaire et types de question   |
+| 3            | Développement                    | Formulaire IWC                                                  |
+| 4            | Développement                    | Formulaire IWC                                                  |
+| 5            | Optimisation                     | Listes de choix, logique, last-saved...                         |
+| 6            | Récupération des données en base | Dans PostgreSQL avec Central2PG + présentation des alternatives |
 
 ## ODK
 ### L'équipe
@@ -77,6 +77,7 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
     * https://docs.getodk.org/tutorial-first-form/
     * https://docs.getodk.org/tutorial-community-reporting/
 * [le site du standart xlsform](https://xlsform.org/en/#basic-format)
+* https://biodiversityforms.org/
 
 ##### les feuilles
 * survey*
@@ -148,28 +149,28 @@ Proposer un formulaire avec
     * date et durée de l’observation
 
 ![exo 1](./illustrations/exercices/exo_1.png)
-
+[solution proposée](./illustrations/exercices/exercice_1.xlsx)
 #### Exercice 1-bis
 idem mais on peut renseigner plusieurs observateurs
 
 ![exo 1bis](./illustrations/exercices/exo_1-bis.png)
-
+[solution proposée](./illustrations/exercices/exercice_1bis.xlsx)
 #### Exercice 2
 sur la base de l’exercice 1-bis
   * un écran supplémentaire après le n°2 propose en plus un “code de relevé” au format texte
 
 ![exo 2](./illustrations/exercices/exo_2.png)
-
+[solution proposée](./illustrations/exercices/exercice_2.xlsx)
 #### Exercice 2bis
   * on ajoute au formulaire de l’exercice 2 la choix d’une structure avant celui de l’observateur.
   * la structure choisie conditionne les choix proposés dans la liste des observateurs (“cascading select”). Paul et jacques travaillent au CEN, Pierre et Martin à la LPO, si je choisis le cen comme structure, seuls Paul et Jacques me sont proposés comme observateurs
   * on peut ajouter plusieurs structures/observateurs
 
 ![exo 2bis](./illustrations/exercices/exo_2-bis.png)
-
+[solution proposée](./illustrations/exercices/exercice_2bis.xlsx)
 #### Exercice 2ter
 Idem mais les listes (étude, protocole, observateurs) sont gérées dans des fichiers csv annexes)
-
+[solution proposée](./illustrations/exercices/exercice_2ter.xlsx)
 #### Exercice 3
 On introduit la possibilité des saisir la localité de l’observation
   * on proposera à l’utilisateur de choisir les modalités de la localisation :
@@ -178,14 +179,14 @@ On introduit la possibilité des saisir la localité de l’observation
 “l’astuce” consistera à conditionner l’une ou l’autre des options à l’option choisie
 
 ![exo 3](./illustrations/exercices/exo_3.png)
-
+[solution proposée](./illustrations/exercices/exercice_3.xlsx)
 #### Exercice 4
   * à chaque localisation on peut ajouter plusieurs espèces observées
   * la liste des espèces possibles est stockée dans un csv (voir ce fichier)
   * pour pouvoir plus tard adapter le formulaire selon qu’on saisira de la faune ou de la flore, on proposera de choisir le règne juste avant l’espèce (Animalia ou Plantae)
  
 ![exo 4](./illustrations/exercices/exo_4.png)
-
+[solution proposée](./illustrations/exercices/exercice_4.xlsx)
 ### Récupération des données
 
 #### Présentation de Central2PG
