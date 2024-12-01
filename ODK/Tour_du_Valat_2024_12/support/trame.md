@@ -1,9 +1,8 @@
 ## Formation ODK - Tour du Valat
 
 ![la Tour du Valat](./illustrations/TDV_ODK.jpeg)
-Le Sambuc, les 2, 3 et 4 décembre 2024
 
-Par Mathieu Bossaert
+Mathieu Bossaert, Le Sambuc, les 2, 3 et 4 décembre 2024
 
 ### Gouvernance du projet
 
