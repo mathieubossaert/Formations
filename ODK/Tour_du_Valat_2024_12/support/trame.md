@@ -3,6 +3,19 @@
 ![la Tour du Valat](./illustrations/TDV_ODK.jpeg)
 
 Mathieu Bossaert, Le Sambuc, les 2, 3 et 4 décembre 2024
+### Programme prévisionnel
+
+|demi-journée|Planning proposé|Planning proposé|
+|---|---|---|
+|1|présentation d’ODK|Central / Collect / WebForms (enketo)|
+||La communauté|Forum & Github|
+||XlsForm|Logique et types de question|
+|2|TP|Travaux pratiques logiques de formulaire et types de question|
+|3|Développement|Formulaire IWC|
+|4|Développement|Formulaire IWC|
+|5|Optimisation|Listes de choix, logique, last-saved...|
+|6|Récupération des données en base|Dans PostgreSQL avec Central2PG + présentation des alternatives|
+
 ## ODK
 ### L'équipe
 ![l'équipe d'ODK Inc.](./illustrations/team.png)
