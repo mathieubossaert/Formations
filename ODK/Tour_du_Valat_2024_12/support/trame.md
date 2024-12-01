@@ -1,5 +1,7 @@
-## Tour du Valat / Formation ODK
-Montpellier le 2, 3 et 4 décembre 2024
+## Formation ODK - Tour du Valat
+
+![la Tour du Valat](./illustrations/TDV_ODK.jpeg)
+Le Sambuc, les 2, 3 et 4 décembre 2024
 
 Par Mathieu Bossaert
 
@@ -54,6 +56,9 @@ Get ODK Inc. strives to preserve ODK as a healthy and bona fide open source proj
 * [showcase ici](https://forum.getodk.org/t/updating-external-media-files-for-select-questions-from-another-form-using-centrals-api/37295)
 
 #### Les entités
+
+#### La feuille de route
+https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb10bdaa94d2bef11
 
 ### Conception de formulaires
 
