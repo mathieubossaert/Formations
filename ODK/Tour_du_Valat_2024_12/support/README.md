@@ -207,8 +207,8 @@ On introduit la possibilité des saisir la localité de l’observation
 
 ```sql
 SELECT odk_central.odk_central_to_pg(
-	'sig@cen-occitanie.org','fdfdsfdcfdfc','central.sicen.fr',5,
-	'Sicen_2022', -- form ID
+	'toto@cen-occitanie.org','fdfdsfdcfdfc','central.sicen.fr',5,
+	'Sicen_2024', -- form ID
 	'odk_central', -- schema where to creta tables and store data
 	'point_auto_5,point_auto_10,point_auto_15,point,ligne,polygone' 
     --> columns to ignore in json transformation to database attributes (geojson fields of GeoWidgets)
@@ -219,11 +219,11 @@ REFRESH MATERIALIZED VIEW odk_central.obs_pressions_menaces_jalons_2022;
 REFRESH MATERIALIZED VIEW odk_central.donnees_habitat_formulaire_sicen_2022;
 
 SELECT odk_central.get_file_from_central(
-	'sig@cen-occitanie.org',
+	'toto@cen-occitanie.org',
 	'fdfdsfdcfdfc',
 	'central.sicen.fr',
 	5,                                        
-	'Sicen_2022',
+	'Sicen_2024',
 	submission_id,
 	prise_image,
 	'/home/postgres/medias_odk',
