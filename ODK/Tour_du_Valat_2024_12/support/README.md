@@ -198,6 +198,7 @@ On introduit la possibilité des saisir la localité de l’observation
 #### PyODK
 https://getodk.github.io/pyodk/
 https://getodk.github.io/pyodk/examples/2022-10-pyodk-webinar/
+
 -> https://www.youtube.com/watch?v=sIaquyz5bP8&t=1024s
 
 #### Présentation de Central2PG
