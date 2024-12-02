@@ -195,6 +195,10 @@ On introduit la possibilité des saisir la localité de l’observation
 
 [solution proposée](./illustrations/exercices/exercice_4.xlsx)
 ### Récupération des données
+#### PyODK
+https://getodk.github.io/pyodk/
+https://getodk.github.io/pyodk/examples/2022-10-pyodk-webinar/
+-> https://www.youtube.com/watch?v=sIaquyz5bP8&t=1024s
 
 #### Présentation de Central2PG
 * sur le forum d'ODK
@@ -246,7 +250,13 @@ SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
 
 #### QGIS et ODK
 
-### Questions diverses :
+### Questions diverses
+##### Synthèse des saisies et "print"
+* print
+  https://forum.getodk.org/t/generate-a-pdf-for-saving-printing-inside-the-form/45039/16
+* synthèse dans une note
+*[Un exemple de solution](./illustrations/exercices/synthese_comptage.xlsx)
+
 ### Publier et partager ses formulaires
 * sur le forum (catégorie Showcase)
 * sur protocols.io : https://dx.doi.org/10.17504/protocols.io.kqdg3xr2qg25/v1
