@@ -197,8 +197,11 @@ On introduit la possibilité des saisir la localité de l’observation
 ### Récupération des données
 #### PyODK
 * la documentation
+
 https://getodk.github.io/pyodk/
+
 * [un webinaire dédié](https://www.youtube.com/watch?v=sIaquyz5bP8&t=1024s)
+
 https://getodk.github.io/pyodk/examples/2022-10-pyodk-webinar/
 
 #### Présentation de Central2PG
