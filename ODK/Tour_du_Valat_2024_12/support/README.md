@@ -127,56 +127,51 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
      -> https://docs.getodk.org/form-datasets/#building-selects-from-geojson-files
      -> https://docs.getodk.org/form-question-types/#customizing-the-label-and-value
 
-[quote]
-##### Customizing the label and value
-
-When using an [external dataset](https://docs.getodk.org/form-datasets/) as a data source for a select, the underlying value for each choice comes from:
-
-* CSV file: the `name` column
-    
-* GeoJSON file: the `id` top-level element if it exists or the `id` property as a fallback
-    
-* XML file: the `name` child element 
-
-The label for each choice comes from:
-
-* CSV file: the `label` column
-    
-* GeoJSON file: the `title` property (follows [the GeoJSON simplestyle specification](https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0))
-    
-* XML file: the `label` child element
-    
-In some cases, it may not be convenient to rename your columns to match these defaults. If you have a dataset from another source and different column names, you can use the `parameters` column in your XLSForm to specify which columns to use.
-
-For example, to use `feature_id` for the underlying value and `human_name` for the label:
-
-XLSForm
-
-survey
-
-| type | name | label | parameters |
-| --- | --- | --- | --- |
-| select\_one\_from_file hospitals.csv | hospital | Select hospital | value=feature\_id,label=human\_name |
-
-hospitals.csv
-
-| feature_id | human_name |
-| --- | --- |
-| hospital_a | Hospital A |
-| hospital_b | Hospital B |
-
-[/quote]
-##### les boucles
-* itérer un certain nombre de fois (repeat_count)
-    * valeur fixe/statique
-    * valeur variable dépendant d'une saisie préalable
-* itérer jusqu’à ce qu’une condition soit remplie
-    * https://docs.getodk.org/form-logic/#repeating-as-long-as-a-condition-is-met
-
-##### les groupes
-* Nommage des itérations (repeat)
-   * pourquoi ?
-* Affichages conditionnels (relevant)
+> ##### Customizing the label and value
+> 
+> When using an [external dataset](https://docs.getodk.org/form-datasets/) as a data source for a select, the underlying value for each choice comes from:
+> 
+> * CSV file: the `name` column   
+> * GeoJSON file: the `id` top-level element if it exists or the `id` property as a fallback
+> * XML file: the `name` child element 
+> 
+> The label for each choice comes from:
+> 
+> * CSV file: the `label` column
+> * GeoJSON file: the `title` property (follows [the GeoJSON simplestyle specification](https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0))
+> * XML file: the `label` child element
+>     
+> In some cases, it may not be convenient to rename your columns to match these defaults. If you have a dataset from another source and different column names, you can use the `parameters` column in your XLSForm to specify which columns to use.
+> 
+> For example, to use `feature_id` for the underlying value and `human_name` for the label:
+> 
+> XLSForm
+> 
+> survey
+> 
+> | type | name | label | parameters |
+> | --- | --- | --- | --- |
+> | select\_one\_from_file hospitals.csv | hospital | Select hospital | value=feature\_id,label=human\_name |
+> 
+> hospitals.csv
+> 
+> | feature_id | human_name |
+> | --- | --- |
+> | hospital_a | Hospital A |
+> | hospital_b | Hospital B |
+> 
+> [/quote]
+> ##### les boucles
+> * itérer un certain nombre de fois (repeat_count)
+>     * valeur fixe/statique
+>     * valeur variable dépendant d'une saisie préalable
+> * itérer jusqu’à ce qu’une condition soit remplie
+>     * https://docs.getodk.org/form-logic/#repeating-as-long-as-a-condition-is-met
+> 
+> ##### les groupes
+> * Nommage des itérations (repeat)
+>    * pourquoi ?
+> * Affichages conditionnels (relevant)
 
 ### Exercices
 #### Exercice 1
