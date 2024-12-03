@@ -142,7 +142,7 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
 Proposer un formulaire avec
   * écran 1
     * choix de l’étude dans une liste
-    * choix et du protocole dans une liste
+    * choix du protocole dans une liste
   * écran 2
     * choix de l’observateur dans une liste
   * écran 3
