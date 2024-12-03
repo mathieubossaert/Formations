@@ -293,13 +293,11 @@ SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
 ### Questions diverses
 ##### Synthèse des saisies et "print"
 * print
-
--> https://forum.getodk.org/t/generate-a-pdf-for-saving-printing-inside-the-form/45039/16
+    * https://forum.getodk.org/t/generate-a-pdf-for-saving-printing-inside-the-form/45039/16
 * synthèse dans une note
-*[Un exemple de solution](./illustrations/exercices/synthese_comptage.xlsx)
+    * [Un exemple de solution](./illustrations/exercices/synthese_comptage.xlsx)
 * l'IA pour transcrire les interviews sonores
-
--> https://forum.getodk.org/t/python-script-to-update-submissions-of-a-form-with-an-ai-generated-transcript-of-its-audio-attachment-s/41338
+    * https://forum.getodk.org/t/python-script-to-update-submissions-of-a-form-with-an-ai-generated-transcript-of-its-audio-attachment-s/41338
 ### Publier et partager ses formulaires
 * sur le forum (catégorie Showcase)
 * sur protocols.io : https://dx.doi.org/10.17504/protocols.io.kqdg3xr2qg25/v1
