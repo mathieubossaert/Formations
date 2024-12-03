@@ -297,6 +297,7 @@ SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
 * synthèse dans une note
 *[Un exemple de solution](./illustrations/exercices/synthese_comptage.xlsx)
 * l'IA pour transcrire les interviews sonores
+
 https://forum.getodk.org/t/python-script-to-update-submissions-of-a-form-with-an-ai-generated-transcript-of-its-audio-attachment-s/41338
 ### Publier et partager ses formulaires
 * sur le forum (catégorie Showcase)
