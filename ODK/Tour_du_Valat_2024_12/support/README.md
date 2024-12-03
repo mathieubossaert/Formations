@@ -127,6 +127,7 @@ https://getodk.notion.site/2cba7220132e49ffb56f8fce96d06bd0?v=9a7f435947a84f7eb1
      -> https://docs.getodk.org/form-datasets/#building-selects-from-geojson-files
      -> https://docs.getodk.org/form-question-types/#customizing-the-label-and-value
 
+[quote]
 ##### Customizing the label and value
 
 When using an [external dataset](https://docs.getodk.org/form-datasets/) as a data source for a select, the underlying value for each choice comes from:
@@ -164,6 +165,7 @@ hospitals.csv
 | hospital_a | Hospital A |
 | hospital_b | Hospital B |
 
+[/quote]
 ##### les boucles
 * itérer un certain nombre de fois (repeat_count)
     * valeur fixe/statique
