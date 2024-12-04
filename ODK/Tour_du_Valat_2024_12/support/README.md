@@ -280,7 +280,6 @@ SELECT odk_central.sicen_2022_alimente_obs_pressions_menaces_jalons();
 SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
 
 ```
-
 #### R et ODK
 "There are many useful R packages that connect to ODK for cleaning and visualizing data. Our current favorites are :"
  
@@ -304,6 +303,7 @@ SELECT odk_central.sicen_2022_alimente_saisie_observation_habitats();
     * #### https://docs.getodk.org/form-logic/#repeating-as-long-as-a-condition-is-met
 * Gestion de l'interface de Collect
 * Question uuid quand besoin d'un identifiant
+* Tuto / Explication des "List lookups" par Hélène : https://youtu.be/LGX8hQrhDiw?list=PLzevEhoWo-bsSTDTaRXnMQDLW0le9yL7w&t=2065
 ### Publier et partager ses formulaires
 * sur le forum (catégorie Showcase)
 * sur protocols.io : https://dx.doi.org/10.17504/protocols.io.kqdg3xr2qg25/v1
